@@ -22,7 +22,7 @@ export default function Timer() {
     const minute = today.getMinutes();
 
     const phrase = [
-      "encore le couvre feu, pas bouger",
+      "le couvre feu. Reste chez toi !",
       "bon là tu peux te ballader",
       "bientôt le couvre feu, hâte toi !",
       "le couvre feu. Reste chez toi !"
