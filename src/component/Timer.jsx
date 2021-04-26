@@ -30,9 +30,9 @@ export default function Timer() {
 
     const wish = `C'est ${
       (hour < 6 && phrase[0]) ||
-      ( hour < 17  && phrase[1]) ||
-      ( ( hour < 18 && minute < 45 ) && phrase[1]) ||
-      ( (18 > hour && 44 < minute) && phrase[2]) ||
+      ( hour < 18  && phrase[1]) ||
+      ( ( hour < 19 && minute < 45 ) && phrase[1]) ||
+      ( (19 > hour && 44 < minute) && phrase[2]) ||
       phrase[3]}`;
 
     // const time = today.toLocaleTimeString(locale, { hour: 'numeric', hour24: true, minute: 'numeric', second: 'numeric' });
